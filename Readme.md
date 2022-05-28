@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Николай Кичигин](https://up.htmlacademy.ru/htmlcss/34/user/2073255).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Рус](https://htmlacademy.ru/profile/vanillawulf).
 
 ---
 
