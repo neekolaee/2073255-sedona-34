@@ -42,12 +42,12 @@
     <main class="main-index">
       <h1 class="visually-hidden">Отдых в городе Седона</h1>
       <section class="greeting-card">
-        <p class="caps-type">
+        <span class="caps-type">
           Седона&nbsp;&mdash; небольшой городок в&nbsp;Аризоне, <br>заслуживающий большего!
-        </p>
-        <p class="usual-type">
+        </span>
+        <span class="usual-type">
           Рассмотрим 5&nbsp;причин, по&nbsp;которым Седона круче, чем Гранд-Каньон!
-        </p>
+        </span>
       </section>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
@@ -123,16 +123,45 @@
         <a href="#" class="button button-all">ПОИСК ГОСТИНИЦЫ В&nbsp;CЕДОНЕ</a>
       </section>
     </main>
-    <footer>
+    <footer class="page-footer">
       <section class="subscribe">
+          <h2 class="subscribe-heading">Подпишитесь на&nbsp;рассылку</h2>
+          <span class="subscribe-text">Только полезная информация и&nbsp;никакого спама, честное бойскаутское!</span>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <h3 class="subscribe-heading">Подпишитесь на&nbsp;рассылку</h3>
-          <p class="subscribe-text">Только полезная информация и&nbsp;никакого спама, честное бойскаутское!</p>
           <p class="subscribe-form-email">
-            <input name="subscribe-email" type="email" placeholder="Ваш e-mail" required>
-            <button type="submit">Подписаться</button>
+            <label class="visually-hidden" for="subscribe-email">Email</label>
+            <input class="field" name="subscribe-email" type="email" placeholder="Ваш e-mail" required>
+            <button type="submit" class="subscribe-button">Подписаться</button>
           </p>
         </form>
+      <section class="footer-social">
+        <h2 class="visually-hidden">Мы&nbsp;в&nbsp;социальных сетях</h2>
+        <ul class="social-list">
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">YouTube</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+        <address class="footer-contact-address">
+          <h2 class="visually-hidden">Наш телефон</h2>
+          <a class="footer-contact-address-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
+        </address>
+        <span class="visually-hidden">Сайт сделан студентом HTML Academy</span>
+        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+          <img src="img/htmlacademy-logo.svg" width="115" height="34" alt="Логотип компании HTML Academy">
+        </a>
       </section>
     </footer>
   </body>
